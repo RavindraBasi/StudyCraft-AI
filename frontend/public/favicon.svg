@@ -1,0 +1,31 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dropletGrad" x1="10" y1="10" x2="90" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00F2FE" />
+      <stop offset="45%" stop-color="#0072FF" />
+      <stop offset="100%" stop-color="#7000FF" />
+    </linearGradient>
+    <linearGradient id="specularRim" x1="50" y1="5" x2="50" y2="95" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.85" />
+      <stop offset="40%" stop-color="#FFFFFF" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.0" />
+    </linearGradient>
+    <linearGradient id="bookGrad" x1="20" y1="40" x2="80" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+    <linearGradient id="sparkleGrad" x1="50" y1="20" x2="50" y2="50" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#67E8F9" />
+    </linearGradient>
+  </defs>
+
+  <path d="M 50 6 C 50 6 16 46 16 68 C 16 85.673 31.227 94 50 94 C 68.773 94 84 85.673 84 68 C 84 46 50 6 50 6 Z" fill="url(#dropletGrad)" />
+  <path d="M 50 8 C 50 8 20 46 20 67 C 20 73 22 78 26 83 C 23 77 22 71 22 66 C 22 48 50 14 50 14 C 50 14 78 48 78 66 C 78 71 77 77 74 83 C 78 78 80 73 80 67 C 80 46 50 8 50 8 Z" fill="url(#specularRim)" />
+  <path d="M 48 54 C 38 49 28 51 25 53 C 24.5 53.5 24 68 24 69 C 27 67 36 65 48 70 Z" fill="url(#bookGrad)" fill-opacity="0.95" />
+  <path d="M 52 54 C 62 49 72 51 75 53 C 75.5 53.5 76 68 76 69 C 73 67 64 65 52 70 Z" fill="url(#bookGrad)" fill-opacity="0.95" />
+  <path d="M 50 52 L 50 72" stroke="#0072FF" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M 50 25 C 50 33 46 37 38 37 C 46 37 50 41 50 49 C 50 41 54 37 62 37 C 54 37 50 33 50 25 Z" fill="url(#sparkleGrad)" />
+  <circle cx="68" cy="28" r="2.5" fill="#FFFFFF" fill-opacity="0.9" />
+  <circle cx="32" cy="33" r="1.8" fill="#FFFFFF" fill-opacity="0.8" />
+</svg>
